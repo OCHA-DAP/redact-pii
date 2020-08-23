@@ -1,6 +1,6 @@
 {
-  "name": "redact-pii",
-  "version": "3.2.3",
+  "name": "@ocha-hdx/redact-pii",
+  "version": "3.2.3-47-structured",
   "description": "Remove personally identifiable information from text.",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -19,12 +19,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/solvvy/redact-pii.git"
+    "url": "https://github.com/OCHA-DAP/redact-pii"
   },
   "author": "Christian Theilemann <christian@solvvy.com>",
   "license": "MIT",
   "dependencies": {
-    "@google-cloud/dlp": "^0.12.0",
+    "@google-cloud/dlp": "^3.0.1",
+    "google-auth-library": "^6.0.3",
     "lodash": "^4.17.15"
   },
   "devDependencies": {
