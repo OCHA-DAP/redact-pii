@@ -1,3 +1,8 @@
+# HDX fork of redact-pii
+
+## DEPRECATED
+This repository is no longer being used.
+
 # redact-pii
 
 [![NPM Package](https://badge.fury.io/js/redact-pii.svg)](https://www.npmjs.com/package/redact-pii)
